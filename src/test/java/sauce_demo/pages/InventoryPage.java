@@ -31,7 +31,7 @@ public class InventoryPage extends CommonProductBasePage {
     @FindBy(css = "button.btn_inventory")
     List<WebElement> buttonInventory;
 
-    @FindBy(css = "select[data-test='product_sort_container']")
+    @FindBy(css = "select[data-test='product-sort-container']")
     WebElement productSort;
 
     @FindBy(css = "button#react-burger-menu-btn")
