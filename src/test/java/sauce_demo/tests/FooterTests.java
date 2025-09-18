@@ -27,7 +27,7 @@ public class FooterTests extends TestLoginBase {
 
     public static Stream<Arguments> getFooterArguments() {
         return Stream.of(
-                Arguments.of(0, "https://twitter.com/saucelabs"),
+                Arguments.of(0, "https://x.com/saucelabs"),
                 Arguments.of(1, "https://www.facebook.com/saucelabs"),
                 Arguments.of(2, "https://www.linkedin.com/company/sauce-labs/")
         );
